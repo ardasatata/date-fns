@@ -14,6 +14,8 @@ import match from './_lib/match/index'
  * @author Benget Nata [@bentinata]{@link https://github.com/bentinata}
  * @author Budi Irawan [@deerawan]{@link https://github.com/deerawan}
  * @author Try Ajitiono [@imballinst]{@link https://github.com/imballinst}
+ *
+ * This is modified Indonesian locale to be used with PT. Asa Bestari Citta dev team
  */
 var locale = {
   code: 'id',
@@ -24,8 +26,8 @@ var locale = {
   match: match,
   options: {
     weekStartsOn: 1 /* Monday */,
-    firstWeekContainsDate: 1
-  }
+    firstWeekContainsDate: 1,
+  },
 }
 
 export default locale

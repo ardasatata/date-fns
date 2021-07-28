@@ -189,53 +189,53 @@
 
 If now is January 1st, 2000, 00:00.
 
-| Date                     | Result              | `includeSeconds: true` | `addSuffix: true`               |
-| ------------------------ | ------------------- | ---------------------- | ------------------------------- |
-| 2006-01-01T00:00:00.000Z | sekitar 6 tahun     | sekitar 6 tahun        | dalam waktu sekitar 6 tahun     |
-| 2005-01-01T00:00:00.000Z | sekitar 5 tahun     | sekitar 5 tahun        | dalam waktu sekitar 5 tahun     |
-| 2004-01-01T00:00:00.000Z | sekitar 4 tahun     | sekitar 4 tahun        | dalam waktu sekitar 4 tahun     |
-| 2003-01-01T00:00:00.000Z | sekitar 3 tahun     | sekitar 3 tahun        | dalam waktu sekitar 3 tahun     |
-| 2002-01-01T00:00:00.000Z | sekitar 2 tahun     | sekitar 2 tahun        | dalam waktu sekitar 2 tahun     |
-| 2001-06-01T00:00:00.000Z | lebih dari 1 tahun  | lebih dari 1 tahun     | dalam waktu lebih dari 1 tahun  |
-| 2001-02-01T00:00:00.000Z | sekitar 1 tahun     | sekitar 1 tahun        | dalam waktu sekitar 1 tahun     |
-| 2001-01-01T00:00:00.000Z | sekitar 1 tahun     | sekitar 1 tahun        | dalam waktu sekitar 1 tahun     |
-| 2000-06-01T00:00:00.000Z | 5 bulan             | 5 bulan                | dalam waktu 5 bulan             |
-| 2000-03-01T00:00:00.000Z | 2 bulan             | 2 bulan                | dalam waktu 2 bulan             |
-| 2000-02-01T00:00:00.000Z | sekitar 1 bulan     | sekitar 1 bulan        | dalam waktu sekitar 1 bulan     |
-| 2000-01-15T00:00:00.000Z | 14 hari             | 14 hari                | dalam waktu 14 hari             |
-| 2000-01-02T00:00:00.000Z | 1 hari              | 1 hari                 | dalam waktu 1 hari              |
-| 2000-01-01T06:00:00.000Z | sekitar 6 jam       | sekitar 6 jam          | dalam waktu sekitar 6 jam       |
-| 2000-01-01T01:00:00.000Z | sekitar 1 jam       | sekitar 1 jam          | dalam waktu sekitar 1 jam       |
-| 2000-01-01T00:45:00.000Z | sekitar 1 jam       | sekitar 1 jam          | dalam waktu sekitar 1 jam       |
-| 2000-01-01T00:30:00.000Z | 30 menit            | 30 menit               | dalam waktu 30 menit            |
-| 2000-01-01T00:15:00.000Z | 15 menit            | 15 menit               | dalam waktu 15 menit            |
-| 2000-01-01T00:01:00.000Z | 1 menit             | 1 menit                | dalam waktu 1 menit             |
-| 2000-01-01T00:00:25.000Z | kurang dari 1 menit | setengah menit         | dalam waktu kurang dari 1 menit |
-| 2000-01-01T00:00:15.000Z | kurang dari 1 menit | kurang dari 20 detik   | dalam waktu kurang dari 1 menit |
-| 2000-01-01T00:00:05.000Z | kurang dari 1 menit | kurang dari 10 detik   | dalam waktu kurang dari 1 menit |
-| 2000-01-01T00:00:00.000Z | kurang dari 1 menit | kurang dari 5 detik    | kurang dari 1 menit yang lalu   |
-| 1999-12-31T23:59:55.000Z | kurang dari 1 menit | kurang dari 10 detik   | kurang dari 1 menit yang lalu   |
-| 1999-12-31T23:59:45.000Z | kurang dari 1 menit | kurang dari 20 detik   | kurang dari 1 menit yang lalu   |
-| 1999-12-31T23:59:35.000Z | kurang dari 1 menit | setengah menit         | kurang dari 1 menit yang lalu   |
-| 1999-12-31T23:59:00.000Z | 1 menit             | 1 menit                | 1 menit yang lalu               |
-| 1999-12-31T23:45:00.000Z | 15 menit            | 15 menit               | 15 menit yang lalu              |
-| 1999-12-31T23:30:00.000Z | 30 menit            | 30 menit               | 30 menit yang lalu              |
-| 1999-12-31T23:15:00.000Z | sekitar 1 jam       | sekitar 1 jam          | sekitar 1 jam yang lalu         |
-| 1999-12-31T23:00:00.000Z | sekitar 1 jam       | sekitar 1 jam          | sekitar 1 jam yang lalu         |
-| 1999-12-31T18:00:00.000Z | sekitar 6 jam       | sekitar 6 jam          | sekitar 6 jam yang lalu         |
-| 1999-12-30T00:00:00.000Z | 2 hari              | 2 hari                 | 2 hari yang lalu                |
-| 1999-12-15T00:00:00.000Z | 17 hari             | 17 hari                | 17 hari yang lalu               |
-| 1999-12-01T00:00:00.000Z | sekitar 1 bulan     | sekitar 1 bulan        | sekitar 1 bulan yang lalu       |
-| 1999-11-01T00:00:00.000Z | 2 bulan             | 2 bulan                | 2 bulan yang lalu               |
-| 1999-06-01T00:00:00.000Z | 7 bulan             | 7 bulan                | 7 bulan yang lalu               |
-| 1999-01-01T00:00:00.000Z | sekitar 1 tahun     | sekitar 1 tahun        | sekitar 1 tahun yang lalu       |
-| 1998-12-01T00:00:00.000Z | sekitar 1 tahun     | sekitar 1 tahun        | sekitar 1 tahun yang lalu       |
-| 1998-06-01T00:00:00.000Z | lebih dari 1 tahun  | lebih dari 1 tahun     | lebih dari 1 tahun yang lalu    |
-| 1998-01-01T00:00:00.000Z | sekitar 2 tahun     | sekitar 2 tahun        | sekitar 2 tahun yang lalu       |
-| 1997-01-01T00:00:00.000Z | sekitar 3 tahun     | sekitar 3 tahun        | sekitar 3 tahun yang lalu       |
-| 1996-01-01T00:00:00.000Z | sekitar 4 tahun     | sekitar 4 tahun        | sekitar 4 tahun yang lalu       |
-| 1995-01-01T00:00:00.000Z | sekitar 5 tahun     | sekitar 5 tahun        | sekitar 5 tahun yang lalu       |
-| 1994-01-01T00:00:00.000Z | sekitar 6 tahun     | sekitar 6 tahun        | sekitar 6 tahun yang lalu       |
+| Date                     | Result             | `includeSeconds: true` | `addSuffix: true`              |
+| ------------------------ | ------------------ | ---------------------- | ------------------------------ |
+| 2006-01-01T00:00:00.000Z | sekitar 6 tahun    | sekitar 6 tahun        | dalam waktu sekitar 6 tahun    |
+| 2005-01-01T00:00:00.000Z | sekitar 5 tahun    | sekitar 5 tahun        | dalam waktu sekitar 5 tahun    |
+| 2004-01-01T00:00:00.000Z | sekitar 4 tahun    | sekitar 4 tahun        | dalam waktu sekitar 4 tahun    |
+| 2003-01-01T00:00:00.000Z | sekitar 3 tahun    | sekitar 3 tahun        | dalam waktu sekitar 3 tahun    |
+| 2002-01-01T00:00:00.000Z | sekitar 2 tahun    | sekitar 2 tahun        | dalam waktu sekitar 2 tahun    |
+| 2001-06-01T00:00:00.000Z | lebih dari 1 tahun | lebih dari 1 tahun     | dalam waktu lebih dari 1 tahun |
+| 2001-02-01T00:00:00.000Z | sekitar 1 tahun    | sekitar 1 tahun        | dalam waktu sekitar 1 tahun    |
+| 2001-01-01T00:00:00.000Z | sekitar 1 tahun    | sekitar 1 tahun        | dalam waktu sekitar 1 tahun    |
+| 2000-06-01T00:00:00.000Z | 5 bulan            | 5 bulan                | dalam waktu 5 bulan            |
+| 2000-03-01T00:00:00.000Z | 2 bulan            | 2 bulan                | dalam waktu 2 bulan            |
+| 2000-02-01T00:00:00.000Z | sekitar 1 bulan    | sekitar 1 bulan        | dalam waktu sekitar 1 bulan    |
+| 2000-01-15T00:00:00.000Z | 14 hari            | 14 hari                | dalam waktu 14 hari            |
+| 2000-01-02T00:00:00.000Z | 1 hari             | 1 hari                 | dalam waktu 1 hari             |
+| 2000-01-01T06:00:00.000Z | sekitar 6 jam      | sekitar 6 jam          | dalam waktu sekitar 6 jam      |
+| 2000-01-01T01:00:00.000Z | sekitar 1 jam      | sekitar 1 jam          | dalam waktu sekitar 1 jam      |
+| 2000-01-01T00:45:00.000Z | sekitar 1 jam      | sekitar 1 jam          | dalam waktu sekitar 1 jam      |
+| 2000-01-01T00:30:00.000Z | 30 menit           | 30 menit               | dalam waktu 30 menit           |
+| 2000-01-01T00:15:00.000Z | 15 menit           | 15 menit               | dalam waktu 15 menit           |
+| 2000-01-01T00:01:00.000Z | 1 menit            | 1 menit                | dalam waktu 1 menit            |
+| 2000-01-01T00:00:25.000Z | < 1 menit          | setengah menit         | dalam waktu < 1 menit          |
+| 2000-01-01T00:00:15.000Z | < 1 menit          | < 20 detik             | dalam waktu < 1 menit          |
+| 2000-01-01T00:00:05.000Z | < 1 menit          | < 10 detik             | dalam waktu < 1 menit          |
+| 2000-01-01T00:00:00.000Z | < 1 menit          | < 5 detik              | < 1 menit yang lalu            |
+| 1999-12-31T23:59:55.000Z | < 1 menit          | < 10 detik             | < 1 menit yang lalu            |
+| 1999-12-31T23:59:45.000Z | < 1 menit          | < 20 detik             | < 1 menit yang lalu            |
+| 1999-12-31T23:59:35.000Z | < 1 menit          | setengah menit         | < 1 menit yang lalu            |
+| 1999-12-31T23:59:00.000Z | 1 menit            | 1 menit                | 1 menit yang lalu              |
+| 1999-12-31T23:45:00.000Z | 15 menit           | 15 menit               | 15 menit yang lalu             |
+| 1999-12-31T23:30:00.000Z | 30 menit           | 30 menit               | 30 menit yang lalu             |
+| 1999-12-31T23:15:00.000Z | sekitar 1 jam      | sekitar 1 jam          | sekitar 1 jam yang lalu        |
+| 1999-12-31T23:00:00.000Z | sekitar 1 jam      | sekitar 1 jam          | sekitar 1 jam yang lalu        |
+| 1999-12-31T18:00:00.000Z | sekitar 6 jam      | sekitar 6 jam          | sekitar 6 jam yang lalu        |
+| 1999-12-30T00:00:00.000Z | 2 hari             | 2 hari                 | 2 hari yang lalu               |
+| 1999-12-15T00:00:00.000Z | 17 hari            | 17 hari                | 17 hari yang lalu              |
+| 1999-12-01T00:00:00.000Z | sekitar 1 bulan    | sekitar 1 bulan        | sekitar 1 bulan yang lalu      |
+| 1999-11-01T00:00:00.000Z | 2 bulan            | 2 bulan                | 2 bulan yang lalu              |
+| 1999-06-01T00:00:00.000Z | 7 bulan            | 7 bulan                | 7 bulan yang lalu              |
+| 1999-01-01T00:00:00.000Z | sekitar 1 tahun    | sekitar 1 tahun        | sekitar 1 tahun yang lalu      |
+| 1998-12-01T00:00:00.000Z | sekitar 1 tahun    | sekitar 1 tahun        | sekitar 1 tahun yang lalu      |
+| 1998-06-01T00:00:00.000Z | lebih dari 1 tahun | lebih dari 1 tahun     | lebih dari 1 tahun yang lalu   |
+| 1998-01-01T00:00:00.000Z | sekitar 2 tahun    | sekitar 2 tahun        | sekitar 2 tahun yang lalu      |
+| 1997-01-01T00:00:00.000Z | sekitar 3 tahun    | sekitar 3 tahun        | sekitar 3 tahun yang lalu      |
+| 1996-01-01T00:00:00.000Z | sekitar 4 tahun    | sekitar 4 tahun        | sekitar 4 tahun yang lalu      |
+| 1995-01-01T00:00:00.000Z | sekitar 5 tahun    | sekitar 5 tahun        | sekitar 5 tahun yang lalu      |
+| 1994-01-01T00:00:00.000Z | sekitar 6 tahun    | sekitar 6 tahun        | sekitar 6 tahun yang lalu      |
 
 ## `formatDistanceStrict`
 
